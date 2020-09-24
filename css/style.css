@@ -640,7 +640,7 @@ h3 span {
 .ashade-slider-next,
 .ashade-progress-counter,
 h4 {
-    font-size: 30px;
+    font-size: 23px;
     line-height: 35px;
     margin: 0 0 20px 0;
 }
@@ -2405,7 +2405,7 @@ p.ashade-intro {
 	z-index: 3;
 }
 .ashade-service-card__head img {
-	width: 155px;
+	width: 140px;
 	border-radius: 50%;
 	box-shadow: 2px 3px 15px rgba(0,0,0,0.3);
 }
