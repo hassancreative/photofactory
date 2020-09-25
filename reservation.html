@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>The Photo Factory | Contacts</title>
+    <title>The Photo Factory | Reservation</title>
 
     <!-- CSS -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat%3A500%2C700%7CRoboto+Condensed:700%7CRoboto%3A700&amp;display=swap" rel="stylesheet">
@@ -38,7 +38,6 @@
 						<li><a href="portfolio.html">Portfolio</a></li> 
                         <li><a href="contacts.html">Contacts</a></li>
                         <li><a href="reservation.html">Reservation</a></li>
-                       
                     </ul>
                 </nav>
             </div>
@@ -48,7 +47,7 @@
     <div class="ashade-page-title-wrap">
         <h1 class="ashade-page-title">
             <span>If You Have More Questions</span>
-            Get in Touch
+            Reserved Now
         </h1>
     </div>
 
@@ -99,18 +98,82 @@
 								</ul>
 							</div><!-- .ashade-contact-details -->
 						</div><!-- .ashade-col -->
+						<style>
+							.reservation .ashade-row{
+								flex-wrap: wrap;
+							}
+							.reservation .ashade-row .col-md-6{
+								width: 50%;
+							}
+						</style>
 						<div class="ashade-col col-8">
-							<form action="https://demo.shadow-themes.com/html/ashade/mail.php" method="post" class="ashade-contact-form">
+							<form method="post" class="ashade-contact-form reservation">
 								<div class="ashade-row ashade-small-gap">
-									<div class="ashade-col col-4">
-										<input type="text" id="name" name="name" placeholder="Your Name" required>
+									<div class="col-md-6">
+										<div class="ashade-col">
+											<label for="">Name</label>
+											<input type="text" id="name" name="name" placeholder="Your Name" required>
+										</div>	
+										<div class="ashade-col">
+											<label for="">Vanue</label>
+											<input type="text" id="vanue" name="vanue" placeholder="Enter Your Vanue" required>
+										</div>
+										<div class="ashade-col">
+											<label for="">No. Of Events</label>
+											<input type="number" id="events" name="events" placeholder="No. of events" required>
+										</div> 
+										<div class="ashade-col">
+											<label for="">Steadycam/Ronin</label>
+											<input type="radio" value="Yes">Yes
+											<input type="radio" value="No">No
+										</div> 
+										<div class="ashade-col">
+											<label for="">Pre-Post Wedding Shoot </label>
+											<input type="radio" value="Yes">Yes
+											<input type="radio" value="No">No
+										</div> 
+									</div> 
+									<div class="col-md-6">
+										<div class="ashade-col">
+											<label for="">Date</label>
+											<input type="date" id="events" name="events" placeholder="No. of events" required>
+										</div>
+										<div class="ashade-col">
+											<label>Photographer/s per event</label>
+											<select name="" id="">
+												<option value="">No of Photographer</option>
+												<option value="1">1</option>
+												<option value="2">2</option>
+												<option value="3">3</option>
+												<option value="4">4</option>
+												<option value="5">5</option>
+											</select>
+										</div>
+										<div class="ashade-col">
+											<label>Videographer/s per event</label>
+											<select name="" id="">
+												<option value="">No of Photographer</option>
+												<option value="1">1</option>
+												<option value="2">2</option>
+												<option value="3">3</option>
+												<option value="4">4</option>
+												<option value="5">5</option>
+											</select>
+										</div>
+										<div class="ashade-col">
+											<label>Album</label>
+											<input type="radio" value="Yes">Yes
+											<input type="radio" value="No">No
+										</div>
+										<div class="ashade-col">
+											<label>Drone</label>
+											<input type="radio" value="Yes">Yes
+											<input type="radio" value="No">No
+										</div>
+
 									</div>
-									<div class="ashade-col col-4">
-										<input type="email" id="email" name="email" placeholder="Your Email" required>
-									</div>
-									<div class="ashade-col col-4">
-										<input type="tel" id="phone" name="phone" placeholder="Your Phone" required>
-									</div>
+								 
+							 
 								</div>
 								<textarea name="message" id="message" placeholder="Your Message" required></textarea>
 								<div class="ashade-contact-form__footer">
