@@ -1,0 +1,57 @@
+[11-Apr-2018 02:49:49 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'essayswr_leads'@'ip-160-153-129-234.ip.secureserver.net' (using password: YES) in /home/gkcwx13qalc5/public_html/includes/inc/config.php on line 14
+[11-Apr-2018 02:49:49 UTC] PHP Notice:  Undefined variable: headers in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 9
+[11-Apr-2018 02:49:49 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 39
+[11-Apr-2018 02:49:49 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 41
+[11-Apr-2018 02:49:49 UTC] PHP Notice:  Undefined index: subject in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 107
+[11-Apr-2018 02:49:49 UTC] PHP Notice:  Undefined index: message in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 109
+[11-Apr-2018 02:49:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home/gkcwx13qalc5/public_html/includes/inc/discount.php:133
+Stack trace:
+#0 {main}
+  thrown in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 133
+[11-Apr-2018 02:50:00 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'essayswr_leads'@'ip-160-153-129-234.ip.secureserver.net' (using password: YES) in /home/gkcwx13qalc5/public_html/includes/inc/config.php on line 14
+[11-Apr-2018 03:00:54 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'essayswr_leads'@'ip-160-153-129-234.ip.secureserver.net' (using password: YES) in /home/gkcwx13qalc5/public_html/includes/inc/config.php on line 14
+[11-Apr-2018 03:00:54 UTC] PHP Notice:  Undefined variable: headers in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 9
+[11-Apr-2018 03:00:54 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 39
+[11-Apr-2018 03:00:54 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 41
+[11-Apr-2018 03:00:54 UTC] PHP Notice:  Undefined index: subject in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 107
+[11-Apr-2018 03:00:54 UTC] PHP Notice:  Undefined index: message in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 109
+[11-Apr-2018 03:00:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home/gkcwx13qalc5/public_html/includes/inc/discount.php:133
+Stack trace:
+#0 {main}
+  thrown in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 133
+[11-Apr-2018 03:03:28 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'essayswr_leads'@'ip-160-153-129-234.ip.secureserver.net' (using password: YES) in /home/gkcwx13qalc5/public_html/includes/inc/config.php on line 14
+[11-Apr-2018 03:03:28 UTC] PHP Notice:  Undefined variable: headers in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 7
+[11-Apr-2018 03:03:28 UTC] PHP Notice:  Undefined variable: form_type in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 20
+[11-Apr-2018 03:06:28 UTC] PHP Notice:  Undefined variable: headers in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 7
+[11-Apr-2018 03:06:28 UTC] PHP Notice:  Undefined variable: form_type in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 20
+[11-Apr-2018 03:07:16 UTC] PHP Notice:  Undefined variable: headers in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 7
+[11-Apr-2018 03:07:16 UTC] PHP Notice:  Undefined variable: form_type in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 20
+[11-Apr-2018 03:09:05 UTC] PHP Notice:  Undefined variable: headers in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 7
+[11-Apr-2018 03:09:05 UTC] PHP Notice:  Undefined variable: form_type in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 18
+[11-Apr-2018 03:12:30 UTC] PHP Notice:  Undefined variable: headers in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 7
+[11-Apr-2018 03:12:30 UTC] PHP Notice:  Undefined variable: form_type in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 18
+[11-Apr-2018 03:14:12 UTC] PHP Notice:  Undefined variable: headers in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 7
+[11-Apr-2018 03:14:12 UTC] PHP Notice:  Undefined variable: form_type in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 18
+[11-Apr-2018 03:15:00 UTC] PHP Notice:  Undefined variable: headers in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 7
+[11-Apr-2018 03:15:00 UTC] PHP Notice:  Undefined variable: form_type in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 18
+[11-Apr-2018 03:15:44 UTC] PHP Notice:  Undefined variable: headers in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 7
+[11-Apr-2018 03:17:14 UTC] PHP Notice:  Undefined variable: headers in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 7
+[11-Apr-2018 03:17:21 UTC] PHP Notice:  Undefined variable: headers in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 7
+[11-Apr-2018 03:22:25 UTC] PHP Notice:  Undefined variable: headers in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 7
+[11-Apr-2018 03:25:27 UTC] PHP Notice:  Undefined variable: headers in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 7
+[11-Apr-2018 03:26:04 UTC] PHP Notice:  Undefined variable: headers in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 7
+[11-Apr-2018 03:27:01 UTC] PHP Notice:  Undefined variable: headers in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 7
+[11-Apr-2018 03:29:29 UTC] PHP Notice:  Undefined variable: headers in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 7
+[11-Apr-2018 03:33:14 UTC] PHP Notice:  Undefined variable: headers in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 5
+[11-Apr-2018 03:33:14 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/gkcwx13qalc5/public_html/includes/inc/discount.php:25
+Stack trace:
+#0 /home/gkcwx13qalc5/public_html/includes/inc/discount.php(18): sendEmail('test@gmail.com', 'Popup Form', '<table border='...')
+#1 {main}
+  thrown in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 25
+[11-Apr-2018 03:34:01 UTC] PHP Notice:  Undefined variable: headers in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 5
+[11-Apr-2018 03:36:37 UTC] PHP Notice:  Undefined variable: headers in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 5
+[11-Apr-2018 03:46:05 UTC] PHP Notice:  Undefined variable: headers in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 6
+[11-Apr-2018 03:47:04 UTC] PHP Notice:  Undefined variable: headers in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 6
+[11-Apr-2018 03:54:12 UTC] PHP Notice:  Undefined variable: headers in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 6
+[11-Apr-2018 03:55:18 UTC] PHP Notice:  Undefined variable: headers in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 6
+[11-Apr-2018 03:59:34 UTC] PHP Notice:  Undefined variable: headers in /home/gkcwx13qalc5/public_html/includes/inc/discount.php on line 6

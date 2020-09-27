@@ -292,6 +292,7 @@ body.has-spotlight:before {
 }
 .ashade-row.ashade-small-gap .ashade-col {
 	margin: 0 10px;
+	position: relative;
 }
 
 .ashade-col.col-12 {
@@ -765,8 +766,9 @@ label {
 	line-height: 16px;
 	margin: 0 0 5px 0;
 }
-input,
-textarea {
+
+.ashade-contact-form input,
+.ashade-contact-form textarea {
     display: block;
     width: 100%;
     height: 50px;
@@ -781,8 +783,8 @@ textarea {
     font-size: 14px;
     line-height: 16px;
     transition: background 0.3s, border 0.3s;
-}
-textarea {
+} 
+ .ashade-contact-form textarea {
     resize: none;
     line-height: 24px;
     height: 230px;
@@ -2787,6 +2789,174 @@ p.ashade-intro {
 	transform: translateX(5px);
 }
 
+
+/* Reservation Forms */
+
+
+.reservation .ashade-row{
+	flex-wrap: wrap;
+}
+.reservation .ashade-row .col-md-6{
+	width: 50%;
+}
+.reservation .ashade-row .ashade-col input[type="text"],
+.reservation .ashade-row .ashade-col input[type="date"],
+.reservation .ashade-row .ashade-col input[type="number"],
+.reservation .ashade-row .ashade-col select{
+	width: 100%;
+	height: 45px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: transparent;
+	border: 2px solid #333;
+    color: #666;
+}
+
+.reservation .ashade-row .ashade-col input:hover,
+.reservation .ashade-row .ashade-col select:hover{
+	background: #ffffff !important;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
+	text-align: center;
+}
+.reservation .ashade-row .ashade-col label{
+	color: #ffffff;
+}
+label.error {
+	color: red !important;
+    font-size: 9px;
+    position: absolute;
+    bottom: -23px;
+}
+.reservation .ashade-row .ashade-col{
+	margin-bottom: 20px;
+}
+.reservation .ashade-button, button, input[type="button"], input[type="reset"], input[type="submit"]{
+	background: #000;
+}
+.reservation{
+
+}
+
+.form-group{
+	position: relative;
+}
+.text-area .error{
+	bottom: -24px;
+}
+
+.gray {
+	color: #a5a5a5;
+  }
+  
+   
+  .team-member {
+	margin: 15px 0;
+	padding: 0;
+  }
+  
+  .team-member figure {
+	position: relative;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+  }
+  
+  .team-member figure img {
+	min-width: 100%;
+  }
+  
+  .team-member figcaption p {
+	font-size: 16px;
+  }
+  
+  .team-member figcaption ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  .team-member figcaption ul {
+	visibility: visible;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+  }
+  
+  .team-member figcaption ul li {
+	display: inline-block;
+	padding: 10px;
+  }
+  
+  .team-member h4 {
+	margin: 10px 0 0;
+	padding: 0;
+	font-size: 15px;
+	line-height:normal
+  }
+  
+  .team-member figcaption {
+	padding: 50px;
+	color: transparent;
+	background-color: transparent;
+	position: absolute;
+	z-index: 996;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+  }
+  
+  .team-member figure:hover figcaption {
+	visibility: visible;
+	color: #fff;
+	background: rgba(230, 78, 62, 0.9);
+	/* Primary color, can be changed via colors.css */
+	
+	height: 100%;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+  }
+  
+  .team-member figure:hover figcaption ul li a:hover {
+	color: rgba(49, 49, 49, .97);
+  }
+  
+  .team-member figure img {
+	-webkit-transform: scale(1) rotate(0) translateY(0);
+	-moz-transform: scale(1) rotate(0) translateY(0);
+	-o-transform: scale(1) rotate(0) translateY(0);
+	-ms-transform: scale(1) rotate(0) translateY(0);
+	transform: scale(1) rotate(0) translateY(0);
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+  }
+  
+  .team-member figure:hover img {
+	-webkit-transform: scale(1.1) rotate(1deg) translateY(12px);
+	-moz-transform: scale(1.1) rotate(1deg) translateY(12px);
+	-o-transform: scale(1.1) rotate(1deg) translateY(12px);
+	-ms-transform: scale(1.1) rotate(1deg) translateY(12px);
+	transform: scale(1.1) rotate(1deg) translateY(12px);
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+  }
+  .testimonial{
+	  margin-top: 50px;
+  }
 @media(max-width:480px){
 	.filters-btns ul li{
 		width: 100%;
