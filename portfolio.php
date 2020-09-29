@@ -7,7 +7,7 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <title>The Photo Factory | City Tour</title>
+      <title>The Photo Factory | Portfolio</title>
       <!-- CSS -->
       <link href="https://fonts.googleapis.com/css?family=Montserrat%3A500%2C700%7CRoboto+Condensed:700%7CRoboto%3A700&amp;display=swap" rel="stylesheet">
       <link type="text/css" rel="stylesheet" href="css/line-awesome.css">
@@ -29,7 +29,7 @@
       <header id="ashade-header">
          <div class="ashade-header-inner">
             <div class="ashade-logo-block">
-               <a href="index.html" class="ashade-logo is-retina">
+               <a href="index.php" class="ashade-logo is-retina">
                <img src="img/logo.png" alt="Ashade Logo" width="128" height="110">
                </a>
             </div>
@@ -37,22 +37,22 @@
                <nav class="ashade-nav">
                   <ul class="main-menu">
                      <li class="menu-item-has-children">
-                        <a href="index.html">Home</a>
+                        <a href="index.php">Home</a>
                         <!-- <ul class="sub-menu">
-                           <li><a href="index.html">Home Video</a></li>
+                           <li><a href="index.php">Home Video</a></li>
                            <li class="current-menu-item"><a href="home02.html">Home Slider</a></li>
                            <li><a href="home03.html">Home Static</a></li>
                            <li><a href="maintenance.html">Maintenance</a></li>
                            </ul> -->
                      </li>
-                     <li><a href="about.html">About Us</a></li>
-                     <li><a href="services.html">Services</a></li>
-                     <li><a href="portfolio.html">Portfolio</a></li>
+                     <li><a href="about.php">About Us</a></li>
+                     <li><a href="services.php">Services</a></li>
+                     <li><a href="portfolio.php">Portfolio</a></li>
                      <!-- <li class="menu-item-has-children">
                         <a href="#">Pages</a>
                         <ul class="sub-menu">
-                            <li><a href="about.html">About Me</a></li>
-                            <li><a href="services.html">Services</a></li>
+                            <li><a href="about.php">About Me</a></li>
+                            <li><a href="services.php">Services</a></li>
                             <li><a href="testimonials.html">Testimonials</a></li>
                         <li><a href="typography.html">Typography</a></li>
                         </ul>
@@ -67,8 +67,8 @@
       <!-- Content -->
       <div class="ashade-page-title-wrap">
          <h1 class="ashade-page-title">
-            <span>Travel Photos</span>
-            City Tour
+            <span>&nbsp;</span>
+            Our Portfolio
          </h1>
       </div>
       <main class="ashade-content-wrap">
@@ -1659,10 +1659,8 @@
                <div class="ashade-footer-inner">
                   <div class="ashade-footer__socials">
                      <ul class="ashade-socials">
-                        <li><a href="#">Fb</a></li>
-                        <li><a href="#">Tw</a></li>
-                        <li><a href="#">In</a></li>
-                        <li><a href="#">Yt</a></li>
+                        <li><a href="https://www.facebook.com/thephotofaktory">Fb</a></li>
+                        <li><a href="www.instagram.com/the.photofaktory">In</a></li>
                      </ul>
                   </div>
                   <div class="ashade-footer__copyright">

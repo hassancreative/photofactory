@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- Mirrored from demo.shadow-themes.com/html/ashade/home03.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 Sep 2020 20:56:16 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ashade | Home Static</title>
+    <title>The Photo Factory | Home with Slider</title>
 
     <!-- CSS -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat%3A500%2C700%7CRoboto+Condensed:700%7CRoboto%3A700&amp;display=swap" rel="stylesheet">
@@ -20,54 +18,98 @@
 </head>
 <body class="ashade-home-template has-spotlight ashade-smooth-scroll">
     <!-- Header -->
-	   <!-- Header -->
 	<header id="ashade-header">
         <div class="ashade-header-inner">
             <div class="ashade-logo-block">
-                <a href="index.html" class="ashade-logo is-retina">
-                	<img src="img/logo.png" alt="Ashade Logo" width="128" height="110">
+                <a href="index.php" class="ashade-logo">
+                	<img src="img/logo.png" alt="Ashade Logo" width="100" height="110">
                 </a>
             </div>
             <div class="ashade-nav-block">
                 <nav class="ashade-nav">
                     <ul class="main-menu">
                         <li class="menu-item-has-children">
-                            <a href="index.html">Home</a>
+                            <a href="index.php">Home</a>
                             <!-- <ul class="sub-menu">
-                                <li><a href="index.html">Home Video</a></li>
+                                <li><a href="index.php">Home Video</a></li>
                                 <li class="current-menu-item"><a href="home02.html">Home Slider</a></li>
                                 <li><a href="home03.html">Home Static</a></li>
                                 <li><a href="maintenance.html">Maintenance</a></li>
                             </ul> -->
 						</li>
-						<li><a href="about.html">About Us</a></li>
-						<li><a href="services.html">Services</a></li>
-						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="about.php">About Us</a></li>
+						<li><a href="services.php">Services</a></li>
+						<li><a href="portfolio.php">Portfolio</a></li>
 					 
                         <!-- <li class="menu-item-has-children">
                             <a href="#">Pages</a>
                             <ul class="sub-menu">
-                                <li><a href="about.html">About Me</a></li>
-                                <li><a href="services.html">Services</a></li>
+                                <li><a href="about.php">About Me</a></li>
+                                <li><a href="services.php">Services</a></li>
                                 <li><a href="testimonials.html">Testimonials</a></li>
 								<li><a href="typography.html">Typography</a></li>
                             </ul>
                         </li> -->
                         <li><a href="contacts.php">Contacts</a></li>
+                        <li><a href="reservation.php">Reservation</a></li>
                        
                     </ul>
                 </nav>
             </div>
         </div>
-	</header>
-	<!-- End Header -->
+    </header>
     
     <!-- Home Background -->
-	<div class="ashade-home-background ashade-page-background is-image" data-src="img/bgs/bg-home01.jpg"></div>
-	
-	<div class="ashed-button">
-		<a href="index.html">CLICK TO ENTER</a>
+	<div class="ashade-home-background ashade-page-background is-slider">
+		<div class="ashade-kenburns-slider" id="ashade-kenburns01" data-delay="4000" data-zoom="1.2" data-transition="2000">
+			<div class="ashade-kenburns-slide" data-src="img/kenburns/01.jpg"></div>
+			<div class="ashade-kenburns-slide" data-src="img/kenburns/02.jpg"></div>
+			<div class="ashade-kenburns-slide" data-src="img/kenburns/03.jpg"></div>
+			<div class="ashade-kenburns-slide" data-src="img/kenburns/04.jpg"></div>
+			<div class="ashade-kenburns-slide" data-src="img/kenburns/05.jpg"></div>
+			<div class="ashade-kenburns-slide" data-src="img/kenburns/06.jpg"></div>
+		</div><!-- .ashade-kenburns-slider -->
 	</div>
+	 
+	<!-- Home Links and Titles -->
+	<div class="book">
+		<div class="ashade-home-link--works ashade-home-link-wrap">
+			<div class="ashade-home-link">
+				<span>
+					<!-- We know how to make your special occasion unforgettable -->
+					&nbsp;
+				</span>
+				<span>Book your slot</span>
+			</div>
+		</div><!-- .ashade-home-link-wrap -->
+	</div>
+
+	<div class="contact-slot">
+	<div class="ashade-home-link--contacts ashade-home-link-wrap">
+		<div class="ashade-home-link is-link">
+			<span>
+				<!-- Are you into fashion? We are into deep fashion. -->
+				&nbsp;
+			</span>
+			 <span>Contact Us</span>
+		</div>
+	</div><!-- .ashade-home-link-wrap -->
+	</div>
+
+
+   
+   <!-- Home Title and Back Button -->
+    <div class="ashade-page-title-wrap is-inactive ">
+        <h1 class="ashade-page-title">&nbsp;</h1>
+    </div><!-- .ashade-page-title-wrap -->
+    
+    <div class="ashade-home-return ashade-back-wrap is-inactive">
+        <div class="ashade-back is-home-return">
+            <span>Return</span>
+            <span>Back</span>
+        </div>
+    </div><!-- .ashade-to-top-wrap -->
+    
     <!-- Home Contacts Block -->
     <div id="ashade-home-contacts">
 		<div class="ashade-row">
@@ -106,7 +148,7 @@
 				</div><!-- .ashade-contact-details -->
 			</div>
 			<div class="ashade-col col-8">
-				<form action="https://demo.shadow-themes.com/html/ashade/mail.php" method="post" class="ashade-contact-form">
+				<form action="https://demo.shadow-themes.com/html/ashade/mail.html" method="post" class="ashade-contact-form">
 					<div class="ashade-row ashade-small-gap">
 						<div class="ashade-col col-4">
 							<input type="text" id="name" name="name" placeholder="Your Name" required>
@@ -134,7 +176,7 @@
     <div id="ashade-home-works">
     	<div class="ashade-row">
     		<div class="ashade-col col-12">
-    			<p class="ashade-intro">Photography is my passion. Through the lens the world looks different and i would like to show you this difference. You can see it in my albums that are presented here.</p>
+	    		<p class="ashade-intro">Photography is my passion. Through the lens the world looks different and i would like to show you this difference. You can see it in my albums that are presented here.</p>
 				<div class="ashade-albums-grid ashade-grid ashade-grid-3cols is-masonry">
 					<div class="ashade-album-item ashade-grid-item">
 						<div class="ashade-album-item__image">
@@ -260,16 +302,14 @@
 			</div><!-- .ashade-col -->
 		</div><!-- .ashade-row -->
     </div><!-- #ashade-home-works -->
-
+    
     <!-- Footer -->
 	<footer id="ashade-footer">
 		<div class="ashade-footer-inner">
 			<div class="ashade-footer__socials">
 				<ul class="ashade-socials">
-					<li><a href="#">Fb</a></li>
-					<li><a href="#">Tw</a></li>
-					<li><a href="#">In</a></li>
-					<li><a href="#">Yt</a></li>
+					<li><a href="www.facebook.com/thephotofaktory">Fb</a></li> 
+					<li><a href="www.instagram.com/the.photofaktory">In</a></li> 
 				</ul>
 			</div>
 			<div class="ashade-footer__copyright">
@@ -277,61 +317,7 @@
 			</div>
 		</div>
 	</footer>
-
-    <!-- Aside Bar -->
-    <aside id="ashade-aside">
-       	<a href="#" class="ashade-aside-close">Close Sidebar</a>
-        <div class="ashade-aside-inner">
-        	<div class="ashade-aside-content">
-				<div class="ashade-widget ashade-widget--about">
-					<div class="ashade-widget--about__head">
-						<img src="img/general/owner-avatar.jpg" alt="Andrew Shade">
-						<h5>
-							<span>Photographer</span>
-							Andrew Shade
-						</h5>
-					</div>
-					<p>Nice to meet you, friend! My name is Andrew Shade. I am from Denver. Photography is my passion. Through the lens the world looks different and I would like to show you this difference.</p>
-					<p class="align-right">
-						<a href="about.html" class="ashade-learn-more">Learn More</a>
-					</p>
-				</div><!-- .ashade-widget -->
-       			
-				<div class="ashade-widget ashade-widget--contacts">
-					<h5 class="ashade-widget-title">
-						<span>My contacts and socials</span>
-						How to find me
-					</h5>
-					<ul class="ashade-contact-details__list">
-						<li>
-							<i class="ashade-contact-icon la la-map-marker"></i>
-							1250 Welton St, Denver, CO 80204
-						</li>
-						<li>
-							<i class="ashade-contact-icon la la-phone"></i>
-							<a href="tel:+11234567890">+1 (123) 456 - 78 - 90</a>
-						</li>
-						<li>
-							<i class="ashade-contact-icon la la-envelope"></i>
-							<a href="mailto:a.shade@example.com">a.shade@example.com</a>
-						</li>
-						<li class="ashade-contact-socials">
-							<i class="ashade-contact-icon la la-share-alt"></i>
-							<a href="facebook.html" target="_blank">Fb</a>
-							<a href="twitter.html" target="_blank">Tw</a>
-							<a href="instagram.html" target="_blank">In</a>
-							<a href="500px.html" target="_blank">Px</a>
-						</li>
-					</ul>
-					<p class="align-right">
-						<a href="contacts.php" class="ashade-learn-more">Get in touch</a>
-					</p>
-				</div><!-- .ashade-widget -->
-       			
-        	</div><!-- .ashade-aside-content -->
-        </div><!-- .ashade-aside-inner -->
-    </aside>
-
+ 
     <!-- UI Elements -->
     <div class="ashade-home-block-overlay"></div>
     <div class="ashade-menu-overlay"></div>
@@ -347,8 +333,21 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/gsap.min.js"></script>
     <script src="js/masonry.min.js"></script>
-    <script src="js/core.js"></script>
+	<script src="js/core.js"></script>
+	<script>
+		$(document).ready(function(){
+			 $('.book').on('click', function(){
+				window.location.href = "http://thephotofaktory.com/reservation.php";
+
+			 });
+
+			 $('.contact-slot').on('click', function(){
+				window.location.href = "http://thephotofaktory.com/contacts.php";
+
+			 });
+		})
+	</script>
 </body>
 
-<!-- Mirrored from demo.shadow-themes.com/html/ashade/home03.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 Sep 2020 20:56:16 GMT -->
+ 
 </html>

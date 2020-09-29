@@ -2692,6 +2692,7 @@ p.ashade-intro {
 	position: relative;
 	overflow: hidden;
 	cursor: grab;
+	margin-bottom: 20px;
 }
 .ashade-before-after img {
 	display: block;
@@ -2861,10 +2862,12 @@ label.error {
 	padding: 0;
 	margin: 0;
   }
-  
+ 
   .team-member figure img {
-	min-width: 100%;
-  }
+    min-width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
   
   .team-member figcaption p {
 	font-size: 16px;
@@ -2957,6 +2960,53 @@ label.error {
   .testimonial{
 	  margin-top: 50px;
   }
+  .ashade-aside-toggler{
+	  display: none !important;
+  }
+
+	.book:before {
+		position: fixed;
+		content: '';
+		left: calc(33.33% - 21px);
+		width: 100vh;
+		display: flex;
+		justify-content: flex-start;
+		transform-origin: 0% 0%;
+		transform: rotate(-90deg) translate(0, 0);
+		z-index: 999999;
+		cursor: default;
+		top: 100%;
+		background: transparent;
+		height: 72px;
+		cursor:pointer;
+	}
+	.contact-slot:before {
+		content:'';
+		height: 72px;
+		position: fixed;
+		top: 100%;
+		left: calc(100vw - 182px);
+		width: 100vh;
+		display: flex;
+		justify-content: flex-start;
+		transform-origin: 0% 0%;
+		transform: rotate(-90deg) translate(0, 0);
+		z-index: 9999999;
+		cursor: default;
+		text-align: right;
+		left: calc(66.66% + 21px);
+		text-align: left;
+		padding-left: 100px;
+		/* background: orange; */
+		cursor:pointer;
+	}
+
+
+	@media(max-width:991px){
+		.reservation .ashade-row .col-md-6{
+			width: 100%;
+		}
+	}
 @media(max-width:480px){
 	.filters-btns ul li{
 		width: 100%;

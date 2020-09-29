@@ -23,19 +23,19 @@
 	<header id="ashade-header">
         <div class="ashade-header-inner">
             <div class="ashade-logo-block">
-                <a href="index.html" class="ashade-logo is-retina">
-                	<img src="img/logo.png" alt="Ashade Logo" width="128" height="110">
+                <a href="index.php" class="ashade-logo">
+                	<img src="img/logo.png" alt="Ashade Logo" width="100" height="110">
                 </a>
             </div>
             <div class="ashade-nav-block">
                 <nav class="ashade-nav">
                     <ul class="main-menu">
                         <li class="menu-item-has-children">
-                            <a href="index.html">Home</a> 
+                            <a href="index.php">Home</a> 
 						</li>
-						<li><a href="about.html">About Us</a></li>
-						<li><a href="services.html">Services</a></li>
-						<li><a href="portfolio.html">Portfolio</a></li> 
+						<li><a href="about.php">About Us</a></li>
+						<li><a href="services.php">Services</a></li>
+						<li><a href="portfolio.php">Portfolio</a></li> 
                         <li><a href="contacts.php">Contacts</a></li>
                         <li><a href="reservation.php">Reservation</a></li>
                        
@@ -58,7 +58,7 @@
 				<section class="ashade-section">
 					<div class="ashade-row">
                         <div class="ashade-col col-12">
-                            <p class="ashade-intro">Nice to meet you, friend! My name is Adrew Shade. I’m a professional photographer from Denver, Colorado. If you have any questions, suggestions or you just want to book a photo session feel free to use the contact form below. Lets make something great together!</p>
+                            <p class="ashade-intro"></p>
 						</div>
 					</div>
 				</section>
@@ -83,12 +83,14 @@
 										<i class="ashade-contact-icon la la-envelope"></i>
 										<a href="mailto:thephotofaktory@gmail.com">thephotofaktory@gmail.com</a>
 									</li>
+ 
+
 									<li class="ashade-contact-socials">
 										<i class="ashade-contact-icon la la-share-alt"></i>
-										<a href="www.facebook.com/thephotofaktory" target="_blank">Fb</a>
+										<a href="https://www.facebook.com/thephotofaktory" target="_blank">Fb</a>
 										<!-- <a href="twitter.html" target="_blank">Tw</a> -->
-										<a href="instagram.com/the.photofaktory" target="_blank">In</a>
-										<a href="tel:+92-341-3101299 ">Wa</a>
+										<a href="https://www.instagram.com/the.photofaktory" target="_blank">In</a>
+										<!-- <a href="tel:+92-341-3101299 ">Wa</a> -->
 									</li>
 									<li class="ashade-contact-socials">
 										<i class="ashade-contact-icon la la-university"></i>
@@ -131,9 +133,9 @@
 					<div class="ashade-footer__socials">
 						<ul class="ashade-socials">
 							<li><a href="https://www.facebook.com/thephotofaktory">Fb</a></li>
-							<!-- <li><a href="#">Tw</a></li> -->
-							<li><a href="https://www.instagram.com/the.photofaktory">In</a></li>
-							<li><a href="+92-341-3101299">Wa</a></li>
+							<li><a href="www.instagram.com/the.photofaktory">In</a></li>
+
+							<!-- <li><a href="+92-341-3101299">Wa</a></li> -->
 							<!-- <li><a href="#">Yt</a></li> -->
 						</ul>
 					</div>

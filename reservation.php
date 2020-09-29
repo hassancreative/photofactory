@@ -23,17 +23,17 @@
 	<header id="ashade-header">
         <div class="ashade-header-inner">
             <div class="ashade-logo-block">
-                <a href="index.html" class="ashade-logo is-retina">
-                	<img src="img/logo.png" alt="Ashade Logo" width="128" height="110">
+                <a href="index.php" class="ashade-logo">
+                	<img src="img/logo.png" alt="Ashade Logo" width="100" height="110">
                 </a>
             </div>
             <div class="ashade-nav-block">
                 <nav class="ashade-nav">
                     <ul class="main-menu">
-                        <li class="menu-item-has-children"><a href="index.html">Home</a> </li>
-						<li><a href="about.html">About Us</a></li>
-						<li><a href="services.html">Services</a></li>
-						<li><a href="portfolio.html">Portfolio</a></li> 
+                        <li class="menu-item-has-children"><a href="index.php">Home</a> </li>
+						<li><a href="about.php">About Us</a></li>
+						<li><a href="services.php">Services</a></li>
+						<li><a href="portfolio.php">Portfolio</a></li> 
                         <li><a href="contacts.php">Contacts</a></li>
                         <li><a href="reservation.php">Reservation</a></li>
                     </ul>
@@ -44,8 +44,8 @@
     <!-- Content -->
     <div class="ashade-page-title-wrap">
         <h1 class="ashade-page-title">
-            <span>If You Have More Questions</span>
-            Reserved Now
+            <span> &nbsp; </span>
+            Reserve Now
         </h1>
     </div>
 
@@ -55,48 +55,14 @@
 				<section class="ashade-section">
 					<div class="ashade-row">
                         <div class="ashade-col col-12">
-                            <p class="ashade-intro">Nice to meet you, friend! My name is Adrew Shade. I’m a professional photographer from Denver, Colorado. If you have any questions, suggestions or you just want to book a photo session feel free to use the contact form below. Lets make something great together!</p>
+                        
 						</div>
 					</div>
 				</section>
 				<section class="ashade-section">
 					<div class="ashade-row">
-						<div class="ashade-col col-4">
-							<div class="ashade-contact-details">
-								<h4 class="ashade-contact-details__title">
-									<span>My Contacts and Socials</span>
-									How to Find Me
-								</h4>
-								<ul class="ashade-contact-details__list">
-									<li>
-										<i class="ashade-contact-icon la la-map-marker"></i>
-										Muslim Commercial Street 1, DHA Phase 6, Karachi
-									</li>
-									<li>
-										<i class="ashade-contact-icon la la-phone"></i>
-										<a href="tel:+92-341-3101299">+92 – 341 – 3101299 </a>
-									</li>
-									<li>
-										<i class="ashade-contact-icon la la-envelope"></i>
-										<a href="mailto:thephotofaktory@gmail.com">thephotofaktory@gmail.com</a>
-									</li>
-									<li class="ashade-contact-socials">
-										<i class="ashade-contact-icon la la-share-alt"></i>
-										<a href="www.facebook.com/thephotofaktory" target="_blank">Fb</a>
-										<!-- <a href="twitter.html" target="_blank">Tw</a> -->
-										<a href="instagram.com/the.photofaktory" target="_blank">In</a>
-										<a href="tel:+92-341-3101299 ">Wa</a>
-									</li>
-									<li class="ashade-contact-socials">
-										<i class="ashade-contact-icon la la-university"></i>
-										 YAMAAN AZMAT <br />
-										BANK AL HABIB <br />
-										1087-0081-003611-01-6 
-									</li>
-								</ul>
-							</div><!-- .ashade-contact-details -->
-						</div><!-- .ashade-col --> 
-						<div class="ashade-col col-8">
+						
+						<div class="ashade-col col-12">
 						<div id="signup-result-header"></div>
 						<div id="signupform-hide-header">
 							<form class="reservation" id="reservation" novalidate>
@@ -107,7 +73,7 @@
 											<input type="text" id="name" name="name" placeholder="Your Name" required>
 										</div>	
 										<div class="ashade-col">
-											<label for="">Vanue</label>
+											<label for="">Vaneu</label>
 											<input type="text" id="vanue" name="vanue" placeholder="Enter Your Vanue" required>
 										</div>
 										<div class="ashade-col">
@@ -174,12 +140,12 @@
 								<div class="ashade-contact-form__footer">
 									<div class="ashade-contact-form__response"></div>
 									<div class="ashade-contact-form__submit">
-										<input type="submit" value="Send Message">
+										<input type="submit" value="Send">
 									</div>
 								</div>
 							</form>
 							</div>
-						</div><!-- .ashade-col -->
+						</di><!-- .ashade-col -->
 					</div><!-- .ashade-row -->
 				</section>
 			</div><!-- .ashade-content -->
@@ -192,7 +158,7 @@
 							<li><a href="https://www.facebook.com/thephotofaktory">Fb</a></li>
 							<!-- <li><a href="#">Tw</a></li> -->
 							<li><a href="https://www.instagram.com/the.photofaktory">In</a></li>
-							<li><a href="+92-341-3101299">Wa</a></li>
+							<!-- <li><a href="+92-341-3101299">Wa</a></li> -->
 							<!-- <li><a href="#">Yt</a></li> -->
 						</ul>
 					</div>

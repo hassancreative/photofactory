@@ -522,6 +522,7 @@ body section.ashade-section.hide-on-desktop {
 	.ashade-no-gap.ashade-grid-4cols .ashade-grid-item,
 	.ashade-no-gap.ashade-grid-5cols .ashade-grid-item {
 		width: 100%;
+		max-width: 100%;
 	}
 
 	/* --- Header --- */
@@ -836,6 +837,7 @@ body section.ashade-section.hide-on-desktop {
 	.ashade-no-gap.ashade-grid-5cols .ashade-grid-item,
 	.ashade-contact-form .ashade-row.ashade-small-gap .ashade-col.col-4 {
 		width: 100%;
+		max-width: 100%;
 	}
 	.ashade-col:empty {
 		display: none;
