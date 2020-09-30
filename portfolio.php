@@ -1688,6 +1688,8 @@
          <span class="ashade-cursor-close ashade-cursor-label">Close</span>
          <span class="ashade-cursor-zoom ashade-cursor-label">Zoom</span>
       </div>
+      <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-d22fb457-de9b-49e5-8dc7-8cfd281177d9"></div>
       <!-- SCRIPTS -->
 	  <script src="js/jquery.min.js"></script>
 	  

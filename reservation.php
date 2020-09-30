@@ -187,7 +187,8 @@
     	<span class="ashade-cursor-close ashade-cursor-label">Close</span>
     	<span class="ashade-cursor-zoom ashade-cursor-label">Zoom</span>
     </div>
-	
+	<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+	<div class="elfsight-app-d22fb457-de9b-49e5-8dc7-8cfd281177d9"></div>
     <!-- SCRIPTS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="js/gsap.min.js"></script>
