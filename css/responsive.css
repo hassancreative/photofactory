@@ -773,9 +773,17 @@ body section.ashade-section.hide-on-desktop {
 /* Mobile Phone Styles 
    ------------------- */
 @media only screen and (max-width: 760px) {
+	.ashade-header-inner{
+		position: relative;
+		z-index: 9999999 !important;
+	}
 	.ashade-mobile-title-wrap {
 		display: block;
 		margin: 0 0 50px 0;
+	}
+	.contact-slot:before{
+		left: calc(66.66% + -14px);
+		height: 56px;
 	}
 	body .hide-on-desktop,
 	body .hide-on-laptop,

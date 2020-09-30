@@ -3000,7 +3000,9 @@ label.error {
 		/* background: orange; */
 		cursor:pointer;
 	}
-
+	#portal-d22fb457-de9b-49e5-8dc7-8cfd281177d9 div[type="floating"]{
+		bottom:80px;
+	}
 
 	@media(max-width:991px){
 		.reservation .ashade-row .col-md-6{

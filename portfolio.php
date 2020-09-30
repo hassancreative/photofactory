@@ -1688,8 +1688,14 @@
          <span class="ashade-cursor-close ashade-cursor-label">Close</span>
          <span class="ashade-cursor-zoom ashade-cursor-label">Zoom</span>
       </div>
-      <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-d22fb457-de9b-49e5-8dc7-8cfd281177d9"></div>
+    	<!-- Whats App Chat Code -->
+	<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+	<div class="elfsight-app-d22fb457-de9b-49e5-8dc7-8cfd281177d9"></div> 
+	<!-- End Whats App Chat Code -->
+	<!-- Facebook Chat Code -->
+	<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+	<div class="elfsight-app-4d387a1c-2cd8-4ad0-838d-4cecc51766bd"></div>
+	<!-- End Facebook Chat Code -->
       <!-- SCRIPTS -->
 	  <script src="js/jquery.min.js"></script>
 	  
